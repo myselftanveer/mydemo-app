@@ -4,7 +4,7 @@ pull_request:
 branches: [develop]
 jobs:
     build:
-        runs-on:
+        runs-on: ubuntu-latest
         steps:
             - uses: action/checkout@v2
             - name: Use NodeJS
